@@ -3,7 +3,7 @@
 Overview:
 Create a distributed job scheduling system that manages and schedules jobs across multiple nodes in a cluster, optimizing for load balancing and resource utilization.
 
-#Components:
+# Components:
 Master Node: Manages the job queue, distributes jobs to worker nodes, and monitors their status.
 Worker Nodes: Execute jobs assigned by the master node and report their status and resource usage.
 Job Queue: A priority queue to manage pending jobs, supporting different scheduling policies (e.g., FIFO, priority-based).
