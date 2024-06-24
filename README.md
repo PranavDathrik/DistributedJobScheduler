@@ -4,15 +4,16 @@ Overview:
 Create a distributed job scheduling system that manages and schedules jobs across multiple nodes in a cluster, optimizing for load balancing and resource utilization.
 
 # Components:
-Master Node: Manages the job queue, distributes jobs to worker nodes, and monitors their status.
-Worker Nodes: Execute jobs assigned by the master node and report their status and resource usage.
-Job Queue: A priority queue to manage pending jobs, supporting different scheduling policies (e.g., FIFO, priority-based).
-Monitoring and Reporting: Real-time monitoring of node health and resource usage, with a dashboard for visualization.
-Technologies:
+    Master Node: Manages the job queue, distributes jobs to worker nodes, and monitors their status.
+    Worker Nodes: Execute jobs assigned by the master node and report their status and resource usage.
+    Job Queue: A priority queue to manage pending jobs, supporting different scheduling policies (e.g., FIFO, priority-based).
+    Monitoring and Reporting: Real-time monitoring of node health and resource usage, with a dashboard for visualization.
+# Technologies:
 Programming Languages: Python or Go or C++
 Distributed Systems Framework: Apache Kafka or RabbitMQ for communication
 Monitoring: Prometheus and Grafana for metrics collection and visualization
 Containerization: Docker for containerized job execution
+
 Implementation Steps:
 Architecture Setup:
 
